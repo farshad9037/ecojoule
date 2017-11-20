@@ -452,7 +452,7 @@ section p button img {
 	bottom: 8%;
 }
 .logo-div {
-	position: fixed;
+	position: absolute;
 	right: 3%;
 	top: 2%;
 	z-index: 3;
@@ -1125,10 +1125,19 @@ section p button img {
 .w3agile_gallery_grid figure:hover h4,.w3agile_gallery_grid figure:hover p {
     left: 0;
 }
+.call-us {
+	padding: 20px;
+	font-size: 2.5vh;
+	width: 50%;
+	margin: 30px auto;
+	border: 1px solid;
+	color: white;
+	background-color: rgba(0, 0, 0, .5)
+}
 /*-- //Gallery --*/
 
 /*-- Testimonials --*/
-.testimonials {
+.testimonialss {
     background: url(../images/bgte.jpg)no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1623,6 +1632,7 @@ i.fa-envelope-o {
 	}
 	.about-grid-main {
 		padding: 3.5em 1em;
+		max-height: 418px;
 	}
 	.about-grid-main h4 {
 		font-size: 1.3em;
@@ -1793,6 +1803,9 @@ i.fa-envelope-o {
 		width: 33%;
 		padding: 0 8px 0 8px;
 	}
+	.solar-grid .about-grid {
+		width: 50%;
+	}
 	.team-grid {
 		float: left;
 		width: 50%;
@@ -1865,7 +1878,7 @@ i.fa-envelope-o {
 	}
 	.w3agile_gallery_grid {
 		float: left;
-		width: 25%;
+		width: 33.333%;
 	}
 	.w3agile_gallery_grid figcaption p {
 		font-size: 0.8em;
@@ -2001,6 +2014,7 @@ i.fa-envelope-o {
 	}
 	.about-grid-main {
 		padding: 3em 1em;
+		max-height: 472px;
 	}
 	.agileits_w3layouts_about_counter_left p {
 		font-size: 2.6em;
@@ -2728,6 +2742,9 @@ i.fa-envelope-o {
 	.header {
 		bottom: 0%;
 	}
+	.call-us {
+		width: 79%;
+	}
 	.agileits-banner-info h5 a {
 		margin: 2em auto 0em;
 	}
@@ -2763,6 +2780,9 @@ i.fa-envelope-o {
 	.about-grid {
 		width: 79%;
 		margin: 0em 3em 0em 3em;
+	}
+	.solar-grid .about-grid {
+		width: 79%;
 	}
 	.about-grid-main h4 {
 		font-size: 1.2em;
@@ -3050,6 +3070,9 @@ i.fa-envelope-o {
 	.about-grid {
 		width: 89%;
 		margin: 0em 1.5em 0em 1.3em;
+	}
+	.solar-grid .about-grid {
+		width: 89%;
 	}
 	.about-grid-main h4 {
 		font-size: 1.15em;
